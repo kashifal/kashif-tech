@@ -5,7 +5,7 @@ function HeroSection() {
     <div className="flex flex-col gap-6 font-mono">
       <h1 className="font-sans text-3xl  font-black md:text-4xl lg:text-4xl">
         <span className="sm:inline-flex hidden">👨‍💻</span>{" "}
-        <span className="italic pl-4">Kashif Sulehria</span>
+        <span className="italic pl-0 sm:pl-4">Kashif Sulehria</span>
       </h1>
       <span className="font-mono hidden sm:block">
         Frontend Developer - React JS | Vue JS
