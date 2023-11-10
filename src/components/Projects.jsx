@@ -56,12 +56,35 @@ function Projects() {
     },
   ];
   return (
-    <div id="projects">
+    <div id="projects" className="mb-16">
       <div className="font-sans text-3xl italic font-black">Projects</div>
-      <div className="flex flex-col gap-2 py-6">
+      <div className="flex  gap-2 pt-6  overflow-x-scroll">
         {projects.map((project, idx) => {
           return <Project key={idx} {...project} />;
         })}
+      </div>
+      <div className="pl-4">
+        <a
+          href="#"
+          target="_blank"
+          className="flex font-mono items-center gap-2 text-sm hover:underline"
+        >
+          <span>scroll to Left</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-4 h-4 animate-pulse"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+            />
+          </svg>
+        </a>
       </div>
     </div>
   );

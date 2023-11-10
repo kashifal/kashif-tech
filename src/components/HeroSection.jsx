@@ -4,11 +4,9 @@ function HeroSection() {
   return (
     <div className="flex flex-col gap-6 font-mono">
       <h1 className="font-sans text-3xl italic font-black md:text-4xl lg:text-5xl">
-        M. Shaheer
+        Kashif Sulehria
       </h1>
-      <span className="font-mono">
-        Passionate Software Engineer & Freelancer
-      </span>
+      <span className="font-mono">Frontend Developer - React JS | Vue JS</span>
       <p className="font-mono">
         🚀 Code maestro sculpting digital dreams with elegance and precision.
         From pixels to algorithms, I turn ideas into seamless realities. Let's

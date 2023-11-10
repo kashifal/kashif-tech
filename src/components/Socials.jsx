@@ -15,6 +15,7 @@ import Vercel from "../icons/Vercel";
 import ChatGPT from "../icons/ChatGPT";
 import MongoDB from "../icons/MongoDB";
 import MySQL from "../icons/MySQL";
+import Phone from "../icons/Phone";
 
 function Socials() {
   const stacks = [
@@ -96,10 +97,10 @@ function Socials() {
   ];
   return (
     <div id="socials">
-      <div className="font-sans text-3xl italic font-black">Contact</div>
+      <div className="font-sans text-3xl italic font-black"></div>
       <div className="flex flex-wrap gap-2 py-6">
         <a
-          href="https://github.com/shaheergg"
+          href="https://github.com/kashifal"
           className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-gray-200"
         >
           <svg
@@ -117,11 +118,11 @@ function Socials() {
             ></path>
           </svg>
           <span className="text-sm font-semibold hover:underline">
-            @shaheergg
+            @kashifal
           </span>
         </a>
         <a
-          href="https://www.linkedin.com/in/shaheercodes/"
+          href="https://www.linkedin.com/in/kashif-sulehria-9436b3257/"
           className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-gray-200"
         >
           <svg
@@ -139,11 +140,11 @@ function Socials() {
             ></path>
           </svg>
           <span className="text-sm font-semibold hover:underline">
-            @shaheercodes
+            @kashif-sulehria
           </span>
         </a>
         <a
-          href="https://twitter.com/haloo_shaheer"
+          href="https://twitter.com/MoSulehria"
           className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-gray-200"
         >
           <svg
@@ -161,7 +162,16 @@ function Socials() {
             ></path>
           </svg>
           <span className="text-sm font-semibold hover:underline">
-            @haloo_shaheer
+            @MoSulehria
+          </span>
+        </a>
+        <a
+          href="tel:+923095203945"
+          className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-gray-200"
+        >
+          <Phone />
+          <span className="text-sm font-semibold hover:underline">
+            +92 3095203945
           </span>
         </a>
       </div>

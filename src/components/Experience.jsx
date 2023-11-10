@@ -1,13 +1,16 @@
 import React from "react";
 
-function Project({ title, year, description, link }) {
+function Experience({ title, year, description, link, company }) {
   return (
-    <div className="project flex flex-col gap-4 font-mono p-4 min-w-full cursor-pointer rounded-lg hover:bg-gray-200">
+    <div className="Experience flex flex-col gap-4 font-mono p-4 cursor-pointer rounded-lg hover:bg-gray-200">
       <div className="flex items-center gap-4">
         <h1 className="font-sans text-xl font-bold">{title}</h1>
-        <span className="px-2 py-1 text-xs rounded bg-neutral-300">
-          #{year}
-        </span>
+        <span className="px-2 py-1 text-xs rounded bg-neutral-300">{year}</span>
+      </div>
+      <div className="">
+        <p className="px-2 py-1 text-xs rounded bg-neutral-300 inline-flex">
+          {company}
+        </p>
       </div>
       <div>
         <p className="">{description}</p>
@@ -18,7 +21,7 @@ function Project({ title, year, description, link }) {
           target="_blank"
           className="flex items-center gap-2 text-sm hover:underline"
         >
-          <span>View Project</span>
+          <span>View Experience</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -39,4 +42,4 @@ function Project({ title, year, description, link }) {
   );
 }
 
-export default Project;
+export default Experience;
