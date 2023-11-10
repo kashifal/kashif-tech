@@ -8,8 +8,10 @@ import Education from "./components/Education";
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
 import Socials from "./components/Socials";
+import kashif from "./assets/kashifFrontend.pdf";
 import Experience from "./components/Experience";
 import Experiences from "./components/Experiences";
+
 function App() {
   return (
     <div className="App relative">
@@ -30,7 +32,8 @@ function App() {
         <GoToTop />
         <Footer />
         <a
-          href=""
+          href={kashif}
+          download
           className="fixed h-10 flex items-center justify-center border border-gray-600 w-10  sm:w-auto sm:px-4  bottom-8 rounded-full right-8"
         >
           <svg
