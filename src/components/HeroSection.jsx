@@ -3,8 +3,8 @@ import React from "react";
 function HeroSection() {
   return (
     <div className="flex flex-col gap-6 font-mono">
-      <h1 className="font-sans text-3xl italic font-black md:text-4xl lg:text-5xl">
-        Kashif Sulehria
+      <h1 className="font-sans text-3xl  font-black md:text-4xl lg:text-4xl">
+        👨‍💻 <span className="italic pl-4">Kashif Sulehria</span>
       </h1>
       <span className="font-mono">Frontend Developer - React JS | Vue JS</span>
       <p className="font-mono">

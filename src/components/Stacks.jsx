@@ -17,24 +17,26 @@ import MongoDB from "../icons/MongoDB";
 import MySQL from "../icons/MySQL";
 import NodeIcon from "../icons/Node";
 import Copilot from "../icons/Copilot";
+import Vue from "../icons/Vue";
 
 function Stacks() {
   const stacks = [
     {
-      name: "VS Code",
-      link: "https://vscode.dev/",
-      icon: <Vscode />,
+      name: "React",
+      link: "https://react.dev",
+      icon: <ReactIcon />,
+    },
+    {
+      name: "VueJs",
+      link: "https://vuejs.org/",
+      icon: <Vue />,
     },
     {
       name: "Figma",
       link: "https://figma.com",
       icon: <Figma />,
     },
-    {
-      name: "React",
-      link: "https://react.dev",
-      icon: <ReactIcon />,
-    },
+
     {
       name: "Dribble",
       link: "https://dribbble.com",
@@ -44,6 +46,11 @@ function Stacks() {
       name: "Tailwind",
       link: "https://tailwindcss.com",
       icon: <Tailwindcss />,
+    },
+    {
+      name: "VS Code",
+      link: "https://vscode.dev/",
+      icon: <Vscode />,
     },
     {
       name: "Flask",
