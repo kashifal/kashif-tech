@@ -12,7 +12,7 @@ function HeroSection() {
         From pixels to algorithms, I turn ideas into seamless realities. Let's
         redefine the future, one line of code at a time. 💻✨
       </p>
-      <div className="flex items-center gap-16">
+      <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-16">
         <div className="flex items-center gap-2">
           <svg
             width="18"

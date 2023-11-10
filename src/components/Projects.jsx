@@ -4,66 +4,52 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Quran Cloud",
+      title: "Tubetailor",
       year: "2022",
       description:
-        " Quran Cloud is a web app used to read and listen to the Quran. It is built using React, Flowbite, and Quran cloud API.",
-      link: "https://quran-clone.vercel.app/",
+        " Tubetailor is a youtube video downloader built using React (Front-end) and Python Flask (Backend) with MongoDB database.",
+      link: "https://tubetailor.vercel.app/",
     },
     {
       id: 2,
-      title: "Jobvista",
+      title: "Cyrano",
       year: "2023",
       description:
-        "Jobvista is a Job Board website built using React (Front-end) and Python Flask (Backend) with MongoDB database.",
-      link: "https://worklytics-board.vercel.app/",
+        "Cyrano is a web app that generates a poem based on the user's input. It uses GPT-2 model to generate the poem.",
+      link: "https://cyrano-web.vercel.app/",
     },
     {
       id: 7,
-      title: "TechCrunch Clone",
+      title: "Kindship",
       year: "2023",
-      description: "An instant techcrunch clone with markets.sh news api.",
-      link: "https://techcrunch-three.vercel.app/",
+      description:
+        "Kindship is a social media app built using React and Next JS. Conneect with parents who just get it!",
+      link: "https://kindship-ui.vercel.app/",
     },
     {
       id: 3,
-      title: "Transfer List component",
+      title: "Dropzey",
       year: "2022",
-      description: "Transfer List Component in React for practice",
-      link: "https://transferlist.vercel.app/",
+      description: "Dropzey is a NFT's sharing app built using Vue and Nuxt.",
+      link: "https://dropzey.vercel.app/",
     },
     {
       id: 4,
-      title: "Tick-Tack-Toe",
+      title: "Prizepicks",
       year: "2023",
-      description: "Tick Tack Toe game with react",
-      link: "https://tick-tack-toe-six.vercel.app/",
-    },
-    {
-      id: 5,
-      title: "Drag'n'Drop",
-      year: "2023",
-      description:
-        "Drag and Drop Component in react using React beautiful drag and drop",
-      link: "https://dragndrop-cyan.vercel.app/",
-    },
-    {
-      id: 6,
-      title: "React mutli-select",
-      year: "2023",
-      description: "Custom mutli-select component in react.",
-      link: "https://react-multi-select-indol.vercel.app/",
+      description: "Prizepicks is a fantasy sports app built using React.",
+      link: "https://prizepicks.vercel.app/",
     },
   ];
   return (
     <div id="projects" className="mb-16">
       <div className="font-sans text-3xl italic font-black">Projects</div>
-      <div className="flex  gap-2 pt-6  overflow-x-scroll">
+      <div className="flex flex-col  gap-2 pt-6">
         {projects.map((project, idx) => {
           return <Project key={idx} {...project} />;
         })}
       </div>
-      <div className="pl-4">
+      {/* <div className="pl-4">
         <a
           href="#"
           target="_blank"
@@ -85,7 +71,7 @@ function Projects() {
             />
           </svg>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
