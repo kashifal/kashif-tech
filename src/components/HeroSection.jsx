@@ -11,7 +11,7 @@ function HeroSection() {
         Frontend Developer | React JS - Vue JS | 🇵🇰🇵🇸
       </span>
       <span className="font-mono block sm:hidden">
-        React JS | Vue JS | Tailwind CSS
+        React JS | Vue JS | Tailwind CSS | 🇵🇰🇵🇸
       </span>
       <p className="font-mono">
         🚀 Code maestro sculpting digital dreams with elegance and precision.
