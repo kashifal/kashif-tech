@@ -97,7 +97,7 @@ function Socials() {
   ];
   return (
     <div id="socials">
-      <div className="font-sans text-3xl italic font-black"></div>
+      <div className="font-sans text-3xl k font-black"></div>
       <div className="flex flex-wrap gap-2 py-6">
         <a
           href="https://github.com/kashifal"

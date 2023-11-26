@@ -62,7 +62,7 @@ function Projects() {
   ];
   return (
     <div id="projects" className="mb-16">
-      <div className="font-sans text-3xl italic font-black">Projects</div>
+      <div className="font-sans text-3xl k font-black">Projects</div>
       <ul className="flex gap-4 container overflow-x-auto items-center mt-8">
         {tabs.map((mytab, index) => (
           <motion.div

@@ -33,7 +33,7 @@ function Experiences() {
   ];
   return (
     <div id="Experiences">
-      <div className="font-sans text-3xl italic font-black">Experiences</div>
+      <div className="font-sans text-3xl k font-black">Experiences</div>
       <div className="flex flex-col gap-2 py-6">
         {Experiences.map((experience, idx) => {
           return <Experience key={idx} {...experience} />;

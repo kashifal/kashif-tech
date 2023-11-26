@@ -115,7 +115,7 @@ function Stacks() {
   ];
   return (
     <div id="stack">
-      <div className="font-sans text-3xl italic font-black">Stack & Tools</div>
+      <div className="font-sans text-3xl k font-black">Stack & Tools</div>
       <div className="flex flex-wrap gap-2 py-6">
         {stacks.map((stack, idx) => {
           return (
