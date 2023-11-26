@@ -2,18 +2,15 @@ import React from "react";
 import { useState } from "react";
 import Project from "./Project";
 import { motion } from "framer-motion";
+import ReactIcon from "../icons/React";
+import Vue from "../icons/Vue";
+import Tailwindcss from "../icons/Tailwindcss";
+import Figma from "../icons/Figma";
+import Next from "../icons/Next";
 
 function Projects() {
   const [tab, setTab] = useState("React");
-  const tabs = [
-    "React",
-    "Vue",
-    "Tailwind",
-    "Figma",
-    "Framer",
-    "Next JS",
-    "Nuxt",
-  ];
+  const tabs = ["React", "Vue", "Tailwind", "Figma", "Next JS"];
 
   const projects = [
     {
@@ -88,7 +85,21 @@ function Projects() {
                 : "px-4 w-32 font-mono whitespace-nowrap py-2 text-sm rounded-lg cursor-pointer flex items-center justify-center bg-gray-200 text-black"
             }
           >
-            <button className="flex items-center">{mytab}</button>
+            <button className="flex items-center">
+              {mytab === "React" ? (
+                <ReactIcon />
+              ) : mytab === "Vue" ? (
+                <Vue />
+              ) : mytab === "Tailwind" ? (
+                <Tailwindcss />
+              ) : mytab === "Figma" ? (
+                <Figma />
+              ) : mytab === "Next JS" ? (
+                <Next />
+              ) : mytab === "Nuxt" ? (
+                <Nuxt />
+              ) : null}
+            </button>
           </motion.div>
         ))}
       </ul>
