@@ -1,6 +1,6 @@
 import React from "react";
 
-function Project({ title, year, description, link }) {
+function Project({ title, year, description, link, lang }) {
   return (
     <div className="project flex flex-col gap-4 font-mono p-4 min-w-full cursor-pointer rounded-lg hover:bg-gray-200">
       <div className="flex items-center gap-4">
