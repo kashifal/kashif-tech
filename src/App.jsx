@@ -8,11 +8,13 @@ import Education from "./components/Education";
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
 import Socials from "./components/Socials";
+import Modal from "./components/Modal";
 import kashif from "./assets/kashifFrontend.pdf";
 import Experience from "./components/Experience";
 import Experiences from "./components/Experiences";
 import { motion, useScroll } from "framer-motion";
 import { scroll } from "framer-motion";
+import Fiverr from "./components/Fiverr";
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -35,6 +37,9 @@ function App() {
           <Experiences />
           <GoToTop />
           <Education />
+          <GoToTop />
+
+          <Fiverr />
           <GoToTop />
           <Stacks />
           <GoToTop />
@@ -65,6 +70,7 @@ function App() {
             </h1>
           </a>
         </Wrap>
+        <Modal />
       </div>
     </>
   );

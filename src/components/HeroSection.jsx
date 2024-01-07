@@ -3,15 +3,16 @@ import React from "react";
 function HeroSection() {
   return (
     <div className="flex flex-col gap-6 font-mono">
-      <h1 className="font-sans text-3xl  font-black md:text-4xl lg:text-4xl">
-        <span className="sm:inline-flex hidden">👨‍💻</span>{" "}
-        <span className=" pl-0 sm:pl-4">Kashif Sulehria</span>
+      <h1 className="font-sans text-3xl  font-black md:text-3xl lg:text-3xl">
+        <span className=" pl-0 sm:pl-0">
+          Kashif Sulehria <small>(waleed)</small>
+        </span>
       </h1>
       <span className="font-mono hidden sm:block">
-        Frontend Developer | React JS - Vue JS | 🇵🇰🇵🇸
+        React JS - Vue JS | Figma - UIUX | Firebase - Sanity
       </span>
       <span className="font-mono block sm:hidden">
-        React JS | Vue JS | Tailwind CSS | 🇵🇸
+        React JS - Vue JS | Figma - UIUX | Firebase - Sanity
       </span>
       <p className="font-mono">
         🚀 Code maestro sculpting digital dreams with elegance and precision.
