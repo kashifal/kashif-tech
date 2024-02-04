@@ -103,7 +103,7 @@ export default function Example() {
                     ></Dialog.Title>
                   </div>
                 </div>
-                <div className="grid md:grid-cols-2 sm:gap-3">
+                <div className="grid md:grid-cols-2 gap-3 sm:gap-3">
                   <button
                     type="button"
                     className="inline-flex items-center whitespace-nowrap w-full justify-center rounded-md bg-green-600 px-3 py-3 text-[15px] font-normal text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 "
