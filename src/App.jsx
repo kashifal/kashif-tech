@@ -15,6 +15,7 @@ import Experiences from "./components/Experiences";
 import { motion, useScroll } from "framer-motion";
 import { scroll } from "framer-motion";
 import Fiverr from "./components/Fiverr";
+import Upwork from "./components/Upwork";
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -40,6 +41,8 @@ function App() {
           <GoToTop />
 
           <Fiverr />
+          <GoToTop />
+          <Upwork />
           <GoToTop />
           <Stacks />
           <GoToTop />
