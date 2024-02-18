@@ -2,7 +2,7 @@ import React from "react";
 
 function Education() {
   return (
-    <div id="education">
+    <div id="education" className="bg-white p-6 my-8 rounded-lg">
       <div className="font-sans k text-3xl font-black py-6">Education</div>
       <div className="project flex flex-col gap-4 font-mono p-4 cursor-pointer rounded-lg">
         <div className="flex flex-col gap-2">

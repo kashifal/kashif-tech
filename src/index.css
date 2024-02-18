@@ -15,10 +15,14 @@ html {
   background: black;
   transform-origin: 0%;
 }
-.container {
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
+*::-webkit-scrollbar {
+  width: 0.2em;
+  height: 3px;
 }
-.container::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+
+*::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 10px;
+  height: 10px;
+  outline: 1px solid slategrey;
 }

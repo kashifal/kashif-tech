@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex items-center font-mono">
+    <div className="flex  justify-center items-center font-mono">
       <p>© {"2023"} - Kashif Sulehria</p>
     </div>
   );

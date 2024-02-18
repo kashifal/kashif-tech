@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import GoToTop from "./components/GoToTop";
 import Education from "./components/Education";
+import Gallery from "./components/Gallery";
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
 import Socials from "./components/Socials";
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <>
-      <div className="App relative">
+      <div className="App relative bg-gray-200">
         <motion.div
           className="progress-bar"
           style={{ scaleX: scrollYProgress }}
@@ -31,23 +32,23 @@ function App() {
         <a id="top"></a>
         <Wrap>
           <HeroSection />
-          <Nav />
 
+          <Nav />
+          <Gallery />
           <Projects />
 
           <Experiences />
-          <GoToTop />
+
           <Education />
-          <GoToTop />
 
           <Fiverr />
-          <GoToTop />
+
           <Upwork />
-          <GoToTop />
+
           <Stacks />
-          <GoToTop />
+
           <Socials />
-          <GoToTop />
+
           <Footer />
           <a
             href={kashif}

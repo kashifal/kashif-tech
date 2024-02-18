@@ -2,11 +2,9 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col gap-6 font-mono">
+    <div className="flex flex-col bg-white p-6 rounded-lg gap-6 font-mono">
       <h1 className="font-sans text-3xl  font-black md:text-3xl lg:text-3xl">
-        <span className=" pl-0 sm:pl-0">
-          Kashif Sulehria <small>(waleed)</small>
-        </span>
+        <span className=" pl-0 sm:pl-0">Kashif Sulehria</span>
       </h1>
       <span className="font-mono hidden sm:block">
         React JS - Vue JS | Figma - UIUX | Firebase - Sanity
@@ -60,6 +58,17 @@ function HeroSection() {
             <div className="p-1 bg-green-500 rounded-full animate-pulse"></div>
           </div>
           <span className="text-xs">Available for work</span>
+        </div>
+        <div className="flex items-center gap-2 ">
+          <div className="p-1 rounded-full bg-green-500/10  ">
+            <div className="p-1 bg-indigo-500 rounded-full animate-pulse"></div>
+          </div>
+          <a
+            href="https://www.makemecoder.com/"
+            className="text-xs text-indigo-500"
+          >
+            Learn to Code
+          </a>
         </div>
       </div>
     </div>

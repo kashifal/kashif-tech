@@ -58,7 +58,7 @@ function Projects() {
     },
   ];
   return (
-    <div id="projects" className="mb-16">
+    <div id="projects" className=" my-8 bg-white px-6 py-6 rounded-lg">
       <div className="font-sans text-3xl k font-black">Projects</div>
       <ul className="flex gap-4 container overflow-x-auto items-center mt-8">
         {tabs.map((mytab, index) => (
@@ -71,18 +71,18 @@ function Projects() {
               tab === mytab && mytab === "React"
                 ? "px-4 bg-[#067EA4] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
                 : tab === mytab && mytab === "Vue"
-                ? "px-4 bg-[#41B883] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
-                : tab === mytab && mytab === "Tailwind"
-                ? "px-4 bg-[#38B2AC] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
-                : tab === mytab && mytab === "Figma"
-                ? "px-4 bg-[#F24E1E] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
-                : tab === mytab && mytab === "Framer"
-                ? "px-4 bg-[#0055FF] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
-                : tab === mytab && mytab === "Next JS"
-                ? "px-4 bg-[#000000] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
-                : tab === mytab && mytab === "Nuxt"
-                ? "px-4 bg-[#00C58E] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
-                : "px-4 w-32 font-mono whitespace-nowrap py-2 text-sm rounded-lg cursor-pointer flex items-center justify-center bg-gray-200 text-black"
+                  ? "px-4 bg-[#41B883] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
+                  : tab === mytab && mytab === "Tailwind"
+                    ? "px-4 bg-[#38B2AC] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
+                    : tab === mytab && mytab === "Figma"
+                      ? "px-4 bg-[#F24E1E] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
+                      : tab === mytab && mytab === "Framer"
+                        ? "px-4 bg-[#0055FF] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
+                        : tab === mytab && mytab === "Next JS"
+                          ? "px-4 bg-[#000000] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
+                          : tab === mytab && mytab === "Nuxt"
+                            ? "px-4 bg-[#00C58E] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
+                            : "px-4 w-32 font-mono whitespace-nowrap py-2 text-sm rounded-lg cursor-pointer flex items-center justify-center bg-gray-200 text-black"
             }
           >
             <button className="flex items-center">
