@@ -10,7 +10,7 @@ export default function Example() {
   useEffect(() => {
     setTimeout(() => {
       setOpen(true);
-    }, 3000);
+    }, 4000);
   }, []);
 
   const contacts = [
