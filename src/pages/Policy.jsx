@@ -7,8 +7,11 @@ const Policy = () => {
       <div className="max-w-4xl mt-12 rounded-lg  mx-auto space-y-3 py-6">
         <header class="  text-white py-4">
           <div class="container mx-auto px-4">
-            <Link to="/" class="text-sm underline text-blue-700 font-medium">
-              Kashif Sulheria
+            <Link
+              to="/"
+              class="text-xs  text-emerald-700 underline font-medium"
+            >
+              Go to - Home
             </Link>
             <h1 class="text-3xl font-semibold">
               Refund and Cancellation Policy
