@@ -9,10 +9,19 @@ import Figma from "../icons/Figma";
 import Next from "../icons/Next";
 
 function Projects() {
-  const [tab, setTab] = useState("React");
-  const tabs = ["React", "Vue", "Tailwind", "Figma", "Next JS"];
+  const [tab, setTab] = useState("Tailwind");
+  const tabs = ["Tailwind", "Vue", "React", "Figma", "Next JS"];
 
   const projects = [
+    {
+      id: 1,
+      title: "Tawzef",
+      year: "2022",
+      description:
+        " Human resources management services, recruitment & HR consultancy. We offer our clients various HR functions to help them focus on business growth | Tawzef.",
+      link: "https://tawzef.com/",
+      lang: ["Vue", "Tailwind"],
+    },
     {
       id: 1,
       title: "Tubetailor",

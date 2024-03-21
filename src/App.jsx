@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import GoToTop from "./components/GoToTop";
 import Education from "./components/Education";
-import Gallery from "./components/Gallery";
+
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
 import Socials from "./components/Socials";
@@ -34,7 +34,7 @@ function App() {
           <HeroSection />
 
           <Nav />
-          <Gallery />
+
           <Projects />
 
           <Experiences />
@@ -74,7 +74,6 @@ function App() {
             </h1>
           </a>
         </Wrap>
-        <Modal />
       </div>
     </>
   );
