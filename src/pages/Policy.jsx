@@ -47,17 +47,17 @@ const Policy = () => {
             <ol class="list-decimal pl-6">
               <li>
                 Refunds within 3 Days: Clients are eligible for a full refund if
-                they request cancellation within 3 days of payment.
+                they request cancellation within 3 days of payment and if His
+                request is solid.
               </li>
               <li>
                 Refunds after 3 Days: After the initial 3-day period, no refunds
-                will be issued unless there is a proven fault on Kashif
-                Sulehria's part.
+                will be issued.
               </li>
               <li>
                 Proven Fault: If the client can provide substantial evidence of
-                a problem caused by Kashif Sulehria's service, a refund may be
-                considered after review.
+                a problem caused by Kashif Sulehria's service within 3-5 days, a
+                refund may be considered after review.
               </li>
             </ol>
           </section>
