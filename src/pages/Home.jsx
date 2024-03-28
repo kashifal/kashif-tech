@@ -42,13 +42,14 @@ function Home() {
           <Education />
 
           <Fiverr />
+          <div className="pb-8"></div>
 
-          <Upwork />
+          {/* <Upwork /> */}
 
           <Stacks />
 
-          <Socials />
-
+          {/* <Socials /> */}
+          <div className="py-6"></div>
           <Footer />
         </Wrap>
       </div>
