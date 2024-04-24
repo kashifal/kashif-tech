@@ -9,13 +9,13 @@ function HeroSection() {
       <span className="font-mono text-gray-100 hidden sm:block">
         React JS - Vue JS | Figma - UIUX |{" "}
         <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-gray-100 inline-block text-transparent bg-clip-text">
-          Free Palestine
+          Product Designer
         </span>
       </span>
       <span className="font-mono text-gray-100 block sm:hidden">
         React JS - Vue JS | Figma - UIUX |{" "}
         <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-gray-100 inline-block text-transparent bg-clip-text">
-          Free Palestine
+          Product Designer
         </span>
       </span>
       <a href="https://wakatime.com/@32a494aa-12ce-4a31-8855-32844bfd4c42">
