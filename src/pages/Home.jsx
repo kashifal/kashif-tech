@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <>
-      <div className="App relative bg-gray-200">
+      <div className="App relative bg-gray-900">
         <motion.div
           className="progress-bar"
           style={{ scaleX: scrollYProgress }}

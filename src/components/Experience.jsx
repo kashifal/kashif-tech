@@ -2,20 +2,20 @@ import React from "react";
 
 function Experience({ title, year, description, link, company }) {
   return (
-    <div className="Experience flex flex-col gap-4 font-mono p-4 cursor-pointer rounded-lg hover:bg-gray-200">
+    <div className="Experience flex flex-col gap-4 font-mono p-4 cursor-pointer rounded-lg hover:bg-gray-900">
       <div className="flex sm:items-center gap-4 sm:flex-row flex-col ">
-        <h1 className="font-sans text-xl font-bold">{title}</h1>
-        <span className="px-2 py-1 inline-flex w-48 text-xs rounded bg-neutral-300">
+        <h1 className="font-sans text-xl text-white font-bold">{title}</h1>
+        <span className="px-2 py-1 inline-flex w-48 text-xs rounded text-white   bg-slate-800">
           {year}
         </span>
       </div>
       <div className="">
-        <p className="px-2 py-1 text-xs rounded bg-neutral-300 inline-flex">
+        <p className="px-2 py-1 text-xs text-white  rounded bg-slate-800 inline-flex">
           {company}
         </p>
       </div>
       <div>
-        <p className="">{description}</p>
+        <p className="text-gray-100 ">{description}</p>
       </div>
       <div>
         <a
@@ -23,7 +23,7 @@ function Experience({ title, year, description, link, company }) {
           target="_blank"
           className="flex items-center gap-2 text-sm hover:underline"
         >
-          <span>View Experience</span>
+          <span className="text-gray-100">View Experience</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

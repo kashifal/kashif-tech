@@ -67,8 +67,8 @@ function Projects() {
     },
   ];
   return (
-    <div id="projects" className=" my-8 bg-white px-6 py-6 rounded-lg">
-      <div className="font-sans text-3xl k font-black">Projects</div>
+    <div id="projects" className=" my-8 bg-gray-950 px-6 py-6 rounded-lg">
+      <div className="font-sans text-white text-3xl k font-black">Projects</div>
       <ul className="flex gap-4 container overflow-x-auto items-center mt-8">
         {tabs.map((mytab, index) => (
           <motion.div

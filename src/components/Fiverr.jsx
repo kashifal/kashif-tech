@@ -2,8 +2,8 @@ import React from "react";
 
 const Fiverr = () => {
   return (
-    <div className="p-6 bg-white rounded-lg" id="fiverr">
-      <div className="font-sans k text-3xl font-black py-6">
+    <div className="p-6 bg-gray-950 rounded-lg" id="fiverr">
+      <div className="font-sans k text-3xl text-white font-black py-6">
         Level 2 Seller on fiverr
       </div>
       <div

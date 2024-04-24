@@ -2,7 +2,8 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="flex flex-col  bg-emerald-800  mt-6 rounded-lg px-6 gap-3 py-10 font-mono">
+    <nav className="flex flex-col  bg-gray-950 overflow-hidden  mt-6 rounded-lg px-6 relative gap-3 py-10 font-mono">
+      <div className="h-80 w-80 bg-gradient-to-r from-red-600/[30%] blur-3xl via-emerald-500/[30%] to-white/[30%] absolute rounded-full -top-40 -right-40"></div>
       <a href="#projects" className="flex  items-center ">
         <svg
           width="18"
