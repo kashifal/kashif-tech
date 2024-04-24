@@ -6,23 +6,12 @@
 html {
   scroll-behavior: smooth;
 }
-.progress-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: black;
-  transform-origin: 0%;
-}
-*::-webkit-scrollbar {
-  width: 0.2em;
-  height: 3px;
+
+html {
+  overflow: scroll;
 }
 
-*::-webkit-scrollbar-thumb {
-  background-color: black;
-  border-radius: 10px;
-  height: 10px;
-  outline: 1px solid slategrey;
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }

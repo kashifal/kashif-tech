@@ -18,12 +18,18 @@ function HeroSection() {
           Free Palestine
         </span>
       </span>
+      <a href="https://wakatime.com/@32a494aa-12ce-4a31-8855-32844bfd4c42">
+        <img
+          src="https://wakatime.com/badge/user/32a494aa-12ce-4a31-8855-32844bfd4c42.svg"
+          alt="Total time coded since Jul 31 2021"
+        />
+      </a>
       <p className="font-mono text-gray-100">
         🚀 Code maestro sculpting digital dreams with elegance and precision.
         From pixels to algorithms, I turn ideas into seamless realities. Let's
         redefine the future, one line of code at a time. 💻✨
       </p>
-      <div className="">
+      <div className="flex flex-col items-start gap-6">
         <div className="flex items-center gap-3">
           <span className="relative flex h-1.5 w-1.5">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
