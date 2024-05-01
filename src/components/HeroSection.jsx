@@ -13,7 +13,7 @@ function HeroSection() {
         </span>
       </span>
       <span className="font-mono text-slate-200 block sm:hidden">
-        React JS - Vue JS | Figma - UIUX |{" "}
+        React JS - Vue JS | Figma - Laravel |{" "}
         <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-slate-200 inline-block text-transparent bg-clip-text">
           Full Stack Developer
         </span>
