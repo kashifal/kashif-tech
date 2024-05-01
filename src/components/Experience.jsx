@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience({ title, year, description, link, company }) {
   return (
-    <div className="Experience flex flex-col gap-4 font-mono p-4 cursor-pointer rounded-lg hover:bg-gray-900">
+    <div className="Experience flex flex-col gap-4 font-mono p-1 my-2 sm:p-4 cursor-pointer rounded-lg hover:bg-gray-900">
       <div className="flex sm:items-center gap-4 sm:flex-row flex-col ">
         <h1 className="font-sans text-xl text-white font-bold">{title}</h1>
         <span className="px-2 py-1 inline-flex w-48 text-xs rounded text-white   bg-slate-800">
@@ -15,7 +15,7 @@ function Experience({ title, year, description, link, company }) {
         </p>
       </div>
       <div>
-        <p className="text-gray-100 ">{description}</p>
+        <p className="text-slate-200 ">{description}</p>
       </div>
       <div>
         <a
@@ -23,7 +23,7 @@ function Experience({ title, year, description, link, company }) {
           target="_blank"
           className="flex items-center gap-2 text-sm hover:underline"
         >
-          <span className="text-gray-100">View Experience</span>
+          <span className="text-slate-200">View Experience</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

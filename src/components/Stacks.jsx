@@ -18,9 +18,15 @@ import MySQL from "../icons/MySQL";
 import NodeIcon from "../icons/Node";
 import Copilot from "../icons/Copilot";
 import Vue from "../icons/Vue";
+import Laravel from "../icons/Laravel";
 
 function Stacks() {
   const stacks = [
+    {
+      name: "Laravel",
+      link: "https://laravel.com/",
+      icon: <Laravel />,
+    },
     {
       name: "React",
       link: "https://react.dev",
@@ -37,11 +43,11 @@ function Stacks() {
       icon: <Figma />,
     },
 
-    {
-      name: "Dribble",
-      link: "https://dribbble.com",
-      icon: <Dribbble />,
-    },
+    // {
+    //   name: "Dribble",
+    //   link: "https://dribbble.com",
+    //   icon: <Dribbble />,
+    // },
     {
       name: "Tailwind",
       link: "https://tailwindcss.com",

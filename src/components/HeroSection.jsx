@@ -6,16 +6,16 @@ function HeroSection() {
       <h1 className="font-sans text-3xl  font-black md:text-3xl lg:text-3xl">
         <span className=" pl-0 text-white sm:pl-0"> Kashif Sulehria</span>
       </h1>
-      <span className="font-mono text-gray-100 hidden sm:block">
-        React JS - Vue JS | Figma - UIUX |{" "}
-        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-gray-100 inline-block text-transparent bg-clip-text">
-          Product Designer
+      <span className="font-mono text-slate-200 hidden sm:block">
+        React JS - Vue JS | Figma - Laravel |{" "}
+        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-slate-200 inline-block text-transparent bg-clip-text">
+          Full Stack Developer
         </span>
       </span>
-      <span className="font-mono text-gray-100 block sm:hidden">
+      <span className="font-mono text-slate-200 block sm:hidden">
         React JS - Vue JS | Figma - UIUX |{" "}
-        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-gray-100 inline-block text-transparent bg-clip-text">
-          Product Designer
+        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-slate-200 inline-block text-transparent bg-clip-text">
+          Full Stack Developer
         </span>
       </span>
       <a href="https://wakatime.com/@32a494aa-12ce-4a31-8855-32844bfd4c42">
@@ -24,7 +24,7 @@ function HeroSection() {
           alt="Total time coded since Jul 31 2021"
         />
       </a>
-      <p className="font-mono text-gray-100">
+      <p className="font-mono text-slate-200">
         🚀 Code maestro sculpting digital dreams with elegance and precision.
         From pixels to algorithms, I turn ideas into seamless realities. Let's
         redefine the future, one line of code at a time. 💻✨

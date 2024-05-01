@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Policy = () => {
   return (
-    <div className="h-screen bg-gray-100">
+    <div className="h-screen bg-slate-200">
       <div className="max-w-4xl mt-12 rounded-lg  mx-auto space-y-3 py-6">
         <header class="  text-white py-4">
           <div class="container mx-auto px-4">

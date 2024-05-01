@@ -2,7 +2,7 @@ import React from "react";
 
 function Project({ title, year, description, link, lang }) {
   return (
-    <div className="project flex flex-col gap-4 font-mono text-gray-100 p-4 min-w-full cursor-pointer rounded-lg hover:bg-gray-900">
+    <div className="project flex flex-col gap-4 font-mono text-slate-200 my-2 p-1 sm:p-4 min-w-full cursor-pointer rounded-lg hover:bg-gray-900">
       <div className="flex items-center gap-4">
         <h1 className="font-sans text-xl text-white font-bold">{title}</h1>
         <span className="px-2 py-1 text-xs text-white rounded bg-slate-900">
@@ -10,15 +10,15 @@ function Project({ title, year, description, link, lang }) {
         </span>
       </div>
       <div>
-        <p className="text-gray-100">{description}</p>
+        <p className="text-slate-200">{description}</p>
       </div>
       <div>
         <a
           href={link}
           target="_blank"
-          className="flex text-gray-100 items-center gap-2 text-sm hover:underline"
+          className="flex text-slate-200 items-center gap-2 text-sm hover:underline"
         >
-          <span className="text-gray-100">View Project</span>
+          <span className="text-slate-200">View Project</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

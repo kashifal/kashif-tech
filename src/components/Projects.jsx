@@ -4,13 +4,14 @@ import Project from "./Project";
 import { motion } from "framer-motion";
 import ReactIcon from "../icons/React";
 import Vue from "../icons/Vue";
+import Laravel from "../icons/Laravel";
 import Tailwindcss from "../icons/Tailwindcss";
 import Figma from "../icons/Figma";
 import Next from "../icons/Next";
 
 function Projects() {
   const [tab, setTab] = useState("Tailwind");
-  const tabs = ["Tailwind", "Vue", "React", "Figma", "Next JS"];
+  const tabs = ["Tailwind", "Vue", "React", "Laravel", "Figma", "Next JS"];
 
   const projects = [
     {
@@ -20,7 +21,7 @@ function Projects() {
       description:
         " Human resources management services, recruitment & HR consultancy. We offer our clients various HR functions to help them focus on business growth | Tawzef.",
       link: "https://tawzef.com/",
-      lang: ["Vue", "Tailwind"],
+      lang: ["Vue", "Tailwind", "Laravel"],
     },
     {
       id: 1,
@@ -29,7 +30,7 @@ function Projects() {
       description:
         " Tubetailor is a youtube video downloader built using React (Front-end) and Python Flask (Backend) with MongoDB database.",
       link: "https://tubetailor.vercel.app/",
-      lang: ["Vue", "Tailwind"],
+      lang: ["Vue", "Tailwind", "Laravel"],
     },
     {
       id: 2,
@@ -91,7 +92,9 @@ function Projects() {
                           ? "px-4 bg-[#000000] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
                           : tab === mytab && mytab === "Nuxt"
                             ? "px-4 bg-[#00C58E] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
-                            : "px-4 w-32 font-mono whitespace-nowrap py-2 text-sm rounded-lg cursor-pointer flex items-center justify-center bg-gray-200 text-black"
+                            : tab === mytab && mytab === "Laravel"
+                              ? "px-4 bg-[#ff2d20] w-32 font-mono whitespace-nowrap  text-sm py-2 rounded-lg cursor-pointer flex items-center justify-center  text-white"
+                              : "px-4 w-32 font-mono whitespace-nowrap py-2 text-sm rounded-lg cursor-pointer flex items-center justify-center bg-slate-300 text-black"
             }
           >
             <button className="flex items-center">
@@ -107,6 +110,8 @@ function Projects() {
                 <Next />
               ) : mytab === "Nuxt" ? (
                 <Nuxt />
+              ) : mytab === "Laravel" ? (
+                <Laravel />
               ) : null}
             </button>
           </motion.div>
