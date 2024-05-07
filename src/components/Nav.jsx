@@ -1,10 +1,18 @@
 import React from "react";
+import kashee from "../assets/kashee.png";
 
 function Nav() {
   return (
     <nav className="flex flex-col  bg-gray-950 overflow-hidden  mt-6 rounded-lg px-6 relative gap-3 py-10 font-mono">
-      <div className="h-80 w-80 bg-gradient-to-r from-sky-900/[30%] blur-3xl via-emerald-900/[30%] to-black/[30%] absolute rounded-full -top-40 -right-40"></div>
-      <a href="#projects" className="flex  items-center ">
+      <div className="absolute right-0 bottom-0">
+        <img
+          className="w-44 h-auto filter grayscale  opacity-25 "
+          src={kashee}
+          alt=""
+        />
+      </div>
+      <div className="h-96 w-96 bg-gradient-to-r from-sky-900/[30%] blur-3xl via-emerald-900/[30%] to-black/[30%] absolute rounded-full -top-40 -right-40"></div>
+      <a href="#projects" className="md:hidden flex  items-center ">
         <svg
           width="18"
           height="18"

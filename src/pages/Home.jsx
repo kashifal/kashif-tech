@@ -24,32 +24,41 @@ function Home() {
   return (
     <>
       <div className="App relative bg-gray-900">
-        <motion.div
-          className="progress-bar"
-          style={{ scaleX: scrollYProgress }}
-        />
-
         <a id="top"></a>
         <Wrap>
-          <HeroSection />
+          <div className="block space-y-4 md:hidden">
+            <HeroSection />
 
-          <Nav />
+            <Nav />
+            <Projects />
+            <Experiences />
 
-          <Projects />
+            <Education />
 
-          <Experiences />
+            <Fiverr />
+            <Stacks />
+          </div>
+          <div className="md:grid hidden grid-cols-1 md:grid-cols-2 md:gap-4">
+            <div className="space-y-4">
+              <HeroSection />
 
-          <Education />
+              <Nav />
 
-          <Fiverr />
-          <div className="pb-8"></div>
+              <Education />
 
-          {/* <Upwork /> */}
+              <Fiverr />
 
-          <Stacks />
+              {/* <Upwork /> */}
 
-          {/* <Socials /> */}
-          <div className="py-6"></div>
+              <Stacks />
+            </div>
+            <div className="space-y-4">
+              <Projects />
+              <Experiences />
+            </div>
+          </div>
+
+          <div className="py-3"></div>
           <Footer />
         </Wrap>
       </div>

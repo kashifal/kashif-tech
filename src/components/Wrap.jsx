@@ -5,7 +5,7 @@ function Wrap({ children }) {
   const { scrollYProgress } = useScroll();
 
   return (
-    <section className="p-4 max-w-4xl grid grid-cols-1  mx-auto py-16">
+    <section className="p-4 max-w-7xl grid grid-cols-1  mx-auto py-6 md:py-16">
       {children}
     </section>
   );
