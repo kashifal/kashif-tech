@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience({ title, year, description, link, company }) {
   return (
-    <div className="Experience flex flex-col gap-4 font-mono p-1 my-2 sm:p-4 cursor-pointer rounded-lg hover:bg-gray-900">
+    <div className="Experience flex flex-col gap-4 font-mono p-1 my-2 sm:p-4 cursor-pointer rounded-lg hover:bg-yellow-600">
       <div className="flex sm:items-center gap-4 sm:flex-row flex-col ">
         <h1 className="font-sans text-xl text-gray-950 font-bold">{title}</h1>
         <span className="px-2 py-1 inline-flex w-48 text-xs rounded text-gray-300   bg-slate-800">

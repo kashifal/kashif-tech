@@ -3,7 +3,7 @@ import React from "react";
 function HeroSection() {
   return (
     <div className="flex flex-col     p-6 rounded-lg gap-6 font-mono">
-      <h1 className="font-sans text-3xl  font-black md:text-3xl lg:text-5xl">
+      <h1 className="font-sans text-4xl  font-black md:text-3xl lg:text-5xl">
         <span className=" pl-0   text-black sm:pl-0"> Kashif Sulehria</span>
       </h1>
       <span className="font-mono  text-gray-950 hidden sm:block">
@@ -22,12 +22,19 @@ function HeroSection() {
           VUE3
         </span>{" "}
       </span>
-      <span className="font-mono text-gray-950 block sm:hidden">
-        Javascript Dev |{" "}
-        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-gray-950 inline-block text-transparent bg-clip-text">
-          Vue JS Developer
-        </span>
-        | React
+      <span className="font-mono space-y-2 text-gray-950 block sm:hidden">
+        <span className="bg-black text-white px-2 rounded-sm py-1">
+          {" "}
+          Javascript Dev
+        </span>{" "}
+        <span className="bg-black text-white px-2 rounded-sm py-1">
+          {" "}
+          React
+        </span>{" "}
+        <span className="bg-black text-white px-2 rounded-sm py-1">
+          {" "}
+          VUE3
+        </span>{" "}
       </span>
       <a href="https://wakatime.com/@32a494aa-12ce-4a31-8855-32844bfd4c42">
         <img
