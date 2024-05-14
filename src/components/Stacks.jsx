@@ -120,8 +120,8 @@ function Stacks() {
     },
   ];
   return (
-    <div className="bg-gray-950 p-6 rounded-lg" id="stack">
-      <div className="font-sans text-3xl k text-white font-black">
+    <div className="  p-6 rounded-lg" id="stack">
+      <div className="font-sans text-3xl k text-black font-black">
         Stack & Tools
       </div>
       <div className="flex flex-wrap gap-2 py-6">

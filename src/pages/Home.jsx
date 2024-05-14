@@ -23,7 +23,7 @@ function Home() {
 
   return (
     <>
-      <div className="App relative bg-gray-900">
+      <div className="App relative bg-[#FCDC02]">
         <a id="top"></a>
         <Wrap>
           <div className=" grid   grid-cols-1   md:gap-4">

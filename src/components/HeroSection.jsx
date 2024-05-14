@@ -2,20 +2,29 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <div className="flex flex-col bg-gray-950   p-6 rounded-lg gap-6 font-mono">
-      <h1 className="font-sans text-3xl  font-black md:text-3xl lg:text-3xl">
-        <span className=" pl-0   text-slate-300 sm:pl-0"> Kashif Sulehria</span>
+    <div className="flex flex-col     p-6 rounded-lg gap-6 font-mono">
+      <h1 className="font-sans text-3xl  font-black md:text-3xl lg:text-5xl">
+        <span className=" pl-0   text-black sm:pl-0"> Kashif Sulehria</span>
       </h1>
-      <span className="font-mono text-slate-200 hidden sm:block">
-        Frontend Engineer |{" "}
-        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-slate-200 inline-block text-transparent bg-clip-text">
-          Vue JS Developer
+      <span className="font-mono  text-gray-950 hidden sm:block">
+        <span className="bg-black text-white px-2 rounded-sm py-1">
+          {" "}
+          Javascript Dev
         </span>{" "}
-        | React
+        |{" "}
+        <span className="bg-black text-white px-2 rounded-sm py-1">
+          {" "}
+          React
+        </span>{" "}
+        |{" "}
+        <span className="bg-black text-white px-2 rounded-sm py-1">
+          {" "}
+          VUE3
+        </span>{" "}
       </span>
-      <span className="font-mono text-slate-200 block sm:hidden">
-        Frontend Engineer |{" "}
-        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-slate-200 inline-block text-transparent bg-clip-text">
+      <span className="font-mono text-gray-950 block sm:hidden">
+        Javascript Dev |{" "}
+        <span className="bg-gradient-to-r from-red-600 via-emerald-500 to-gray-950 inline-block text-transparent bg-clip-text">
           Vue JS Developer
         </span>
         | React
@@ -26,7 +35,7 @@ function HeroSection() {
           alt="Total time coded since Jul 31 2021"
         />
       </a>
-      <p className="font-mono text-slate-200">
+      <p className="font-mono text-gray-950">
         🚀 Code maestro sculpting digital dreams with elegance and precision.
         From pixels to algorithms, I turn ideas into seamless realities. Let's
         redefine the future, one line of code at a time. 💻✨
