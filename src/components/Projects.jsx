@@ -70,7 +70,7 @@ function Projects() {
   return (
     <div
       id="projects"
-      className="  bg-gray-950 md:h-[60vh] overflow-y-auto px-6 py-6 rounded-lg"
+      className="  bg-gray-950  overflow-y-auto px-6 py-6 rounded-lg"
     >
       <div className="font-sans text-white text-3xl k font-black">Projects</div>
       <ul className="flex gap-4 container overflow-x-auto items-center mt-8">

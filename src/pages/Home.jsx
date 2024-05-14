@@ -26,35 +26,22 @@ function Home() {
       <div className="App relative bg-gray-900">
         <a id="top"></a>
         <Wrap>
-          <div className="block space-y-4 md:hidden">
-            <HeroSection />
-
-            <Nav />
-            <Projects />
-            <Experiences />
-
-            <Education />
-
-            <Fiverr />
-            <Stacks />
-          </div>
-          <div className="md:grid hidden grid-cols-1 md:grid-cols-2 md:gap-4">
+          <div className=" grid   grid-cols-1   md:gap-4">
             <div className="space-y-4">
               <HeroSection />
 
               <Nav />
-
+              <div className="space-y-4">
+                <Projects />
+                <Experiences />
+              </div>
               <Education />
 
-              <Fiverr />
+              {/* <Fiverr /> */}
 
               {/* <Upwork /> */}
 
               <Stacks />
-            </div>
-            <div className="space-y-4">
-              <Projects />
-              <Experiences />
             </div>
           </div>
 

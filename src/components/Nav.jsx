@@ -12,7 +12,7 @@ function Nav() {
         />
       </div>
       <div className="h-96 w-96 bg-gradient-to-r from-sky-900/[30%] blur-3xl via-emerald-900/[30%] to-black/[30%] absolute rounded-full -top-40 -right-40"></div>
-      <a href="#projects" className="md:hidden flex  items-center ">
+      <a href="#projects" className=" flex  items-center ">
         <svg
           width="18"
           height="18"
@@ -50,7 +50,7 @@ function Nav() {
         </svg>
         <span className="ml-2 text-white">Education</span>
       </a>
-      <a href="#fiverr" className="flex items-center ">
+      {/* <a href="#fiverr" className="flex items-center ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -63,7 +63,7 @@ function Nav() {
           ></path>
         </svg>
         <span className="ml-2 text-white">Fiverr</span>
-      </a>
+      </a> */}
 
       <a href="#stack" className="flex items-center ">
         <svg
