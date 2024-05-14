@@ -4,7 +4,7 @@ import kashee from "../assets/kashee.png";
 function Nav() {
   return (
     <nav className="flex flex-col    overflow-hidden  mt-6 rounded-lg px-6 relative gap-3 py-10 font-mono">
-      <a href="#projects" className="md:hidden flex  items-center ">
+      <a href="#projects" className="  flex  items-center ">
         <svg
           width="18"
           height="18"
@@ -27,7 +27,7 @@ function Nav() {
         </svg>
         <span className="ml-2 text-black">Projects</span>
       </a>
-      <a href="#education" className="flex items-center ">
+      <a href="#education" className="flex hi items-center ">
         <svg
           width="18"
           height="18"
@@ -42,7 +42,7 @@ function Nav() {
         </svg>
         <span className="ml-2 text-black">Education</span>
       </a>
-      <a href="#fiverr" className="flex items-center ">
+      <a href="#fiverr" className="hidden items-center ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
