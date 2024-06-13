@@ -9,7 +9,7 @@ function HeroSection() {
       <span className="font-mono  text-gray-950 hidden sm:block">
         <span className="bg-black text-white px-2 rounded-sm py-1">
           {" "}
-          Javascript Dev
+         Laravel
         </span>{" "}
         |{" "}
         <span className="bg-black text-white px-2 rounded-sm py-1">
@@ -25,7 +25,7 @@ function HeroSection() {
       <span className="font-mono space-y-2 text-gray-950 block sm:hidden">
         <span className="bg-black text-white px-2 rounded-sm py-1">
           {" "}
-          Javascript Dev
+          Laravel
         </span>{" "}
         <span className="bg-black text-white px-2 rounded-sm py-1">
           {" "}
