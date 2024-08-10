@@ -154,9 +154,6 @@ export default function Example() {
                     </span>
                   </button> */}
                 </div>
-                <h1 className="text-center w-44 mx-auto bg-gray-200 text-red-900 my-4  py-2 rounded-lg">
-                  Close Modal
-                </h1>
               </Dialog.Panel>
             </Transition.Child>
           </div>
