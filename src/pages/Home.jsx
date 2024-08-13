@@ -29,7 +29,7 @@ function Home() {
           <div className=" grid   grid-cols-1   md:gap-4">
             <div className="space-y-4">
               <HeroSection />
-              <Modal />
+              {/* <Modal /> */}
               <Nav />
               <div className="space-y-4">
                 <Projects />
