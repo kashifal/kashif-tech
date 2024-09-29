@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div className="flex flex-col     p-6 rounded-lg gap-6 font-mono">
       <h1 className="font-sans text-4xl  font-black md:text-3xl lg:text-5xl">
-        <span className=" pl-0   text-black sm:pl-0"> Kashif Sulehria</span>
+        <span className=" pl-0   text-black sm:pl-0"> Shaheer I </span>
       </h1>
       <span className="font-mono  text-gray-950 hidden sm:block">
         <span className="bg-black text-white px-2 rounded-sm py-1">
